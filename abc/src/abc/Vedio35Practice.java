@@ -31,7 +31,7 @@ public class Vedio35Practice {
 	
 	    //practice03
 	static void pattrn(int n) {
-		for(int i=4;i>0; i--) {
+		for(int i=5;i>0; i--) {
 			for (int j=0;j<i+1;j--) {
 				System.out.print("*");
 				
@@ -40,14 +40,13 @@ public class Vedio35Practice {
 		}
 	}
 	public static void main(String[] args) {
-		pattrn(4);
+		pattrn(5);
 	
 	}}
 	
 	
 	
-	
-	
+		
 	
 	
 	
