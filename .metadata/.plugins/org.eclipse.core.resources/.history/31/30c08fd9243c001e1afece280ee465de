@@ -1,0 +1,11 @@
+package abc;
+
+public class Methodoveloading {
+
+	static void foo() {
+		System.out.println("Hello\n Bye");
+	}
+	public static void main(String[] args) {
+		foo();
+	}
+}

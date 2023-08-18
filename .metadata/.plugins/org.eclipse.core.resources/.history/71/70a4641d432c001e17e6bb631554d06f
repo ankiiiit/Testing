@@ -1,0 +1,18 @@
+package abc;
+
+public class ch1ps1 {
+	public static void main(String[] args) {
+	//Question 01
+	//int a=12;
+	//int b=12;
+	//int sum=a+b;
+	//System.out.println(sum);
+	float sub1=60;
+ float sub2=65;
+	float sub3=85;
+	float cgpa=sub1+sub2+sub3/30;
+	System.out.println(cgpa);
+	
+	
+}
+}

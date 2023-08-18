@@ -1,0 +1,47 @@
+package javaprogramming;
+
+public class swapping2number {
+	public static void main(String[] args) {
+		int a=10 ,b=20;
+		System.out.println("before swapping value are : "+a+" "+b);
+		//Logic01:using third variable; 
+	/*	int t = a;  //t=10
+		    a = b;  //a=20
+		    b = t;  //b=10
+		    System.out.println("After swapping value are  : "+a+" "+b);
+	*/
+		 //Logic02:using * and /  without using  third variable;	
+	/*	 a = a*b;   //a=200
+		 b = a/b;   //b=200/20=10
+		 a = a/b;   //a=200/10=20     
+		 System.out.println("After swapping value are  : "+a+" "+b);
+		*/
+		
+         //Logic03:using + and -  without using  third variable;		
+	/*	a = a+b;   //a=30
+		b = a-b;   //b=30-20=10
+		a = a-b;   //a=30-10=20
+		 System.out.println("After swapping value are  : "+a+" "+b);
+      */
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+
+}

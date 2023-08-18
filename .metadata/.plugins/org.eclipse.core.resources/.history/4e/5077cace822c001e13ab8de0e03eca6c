@@ -1,0 +1,9 @@
+package abc;
+
+public class test7string {
+public static void main(String[] args) {
+	String name="deepak";
+	System.out.println("The name is:");
+	System.out.println(name);
+}
+}

@@ -1,0 +1,15 @@
+package abc;
+
+public class method {
+
+	public static void write() {
+		System.out.println("Hello");
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		
+		write();
+	}
+}

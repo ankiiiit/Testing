@@ -1,0 +1,57 @@
+package abc;
+
+public class test29arry {
+	private static boolean InArray;
+
+	public static void main(String[]args) {
+//		int[][] flats;
+//		flats = new  int[2][3];
+//		flats[0][0]=101;
+//		flats[0][1]=102;
+//		flats[0][2]=103;
+//		flats[1][0]=201;
+//		flats[1][1]=202;
+//		flats[1][2]=203;
+//		int i,j;
+//		for(i=0; i<flats.length; i++) {
+//			for(j=0; j<flats[i].length; j++) {
+//				System.out.println(flats[i][j]);
+//				System.out.println(" ");
+//			}
+//			System.out.println("\n");
+//	}
+		
+		// practice problem 1
+//		 float[] marks = {22.5f,23.5f,43.2f,34.4f,12.3f};
+//		 float sum = 0;
+//		 for (float element:marks) {
+//			 sum=sum+element;
+//			
+//		 }
+//		 System.out.println(sum);
+//		
+		
+		//practice problem 2
+		 float[] marks = {22.5f,23.5f,43.2f,34.4f,12.3f};
+		 float num = 23.5f;
+		 boolean isInArray = false;
+		 for(float element:marks) {
+			 if(num==element) {
+				 isInArray = true;
+				 break;
+			 }
+			 if(isInArray) {
+				 System.out.println("The value is in present in this array");
+			 }
+			 else  {
+				 System.out.println("The value is not present in this array");
+			 }
+		 }
+		 
+		
+		
+		
+		
+		
+
+}}

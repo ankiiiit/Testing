@@ -1,0 +1,23 @@
+package abc;
+
+public class Methodoveloading {
+
+	static void foo() {
+		System.out.println("Hello");
+	}
+	static void foo(int a) {
+		System.out.println("Bye");
+	}
+	
+	static void foo(int a,int b) {
+		System.out.println("Byeeeeeeeeeeeeeeeeeeeee");
+		
+		static void foo(String x) {
+			System.out.println("Betetgdgve");	
+		
+	}
+	public static void main(String[] args) {
+		foo("eed");
+		
+	}
+}

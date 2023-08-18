@@ -1,0 +1,15 @@
+package abc;
+
+public class Methodoveloading {
+
+	static void foo() {
+		System.out.println("Hello");
+	}
+	static void foo(int a) {
+		System.out.println("Bye");
+	}
+	public static void main(String[] args) {
+		foo(85);
+		
+	}
+}

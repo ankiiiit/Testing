@@ -1,0 +1,17 @@
+package abc;
+
+public class ch1ps2 {
+	public static void main(String[] args) {
+	/*int sub1=60;
+	int sub2=65;
+	int sub3=85;
+	int per=sub1+sub2+sub3/300;
+	System.out.println(per);
+	*/
+		   Scanner sc=new scanner(System.in);	
+		System.out.println("Enter physics marks ");
+int physics = scan.nextInt();
+		
+		
+	}
+}

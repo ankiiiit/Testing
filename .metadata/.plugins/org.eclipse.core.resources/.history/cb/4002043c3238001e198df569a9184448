@@ -1,0 +1,13 @@
+package javaprogramming;
+
+import java.util.Arrays;
+public class Sortingbuildmethod {
+public static void main(String[] args) {
+	
+	int a[]= {3,4,2,5,1};
+	
+	System.out.println("Before sorting: "+Arrays.toString(a));
+	Arrays.parallelSort(a);
+	System.out.println("After sorting: "+Arrays.toString(a));
+}
+}

@@ -1,0 +1,30 @@
+package abc;
+
+import java.util.Scanner;
+
+public class ch1ps1 {
+	public static void main(String[] args) {
+	
+	   //Question 01
+		
+	//int a=12;
+	//int b=12;
+	//int sum=a+b;
+	//System.out.println(sum);
+		
+	  //Question 02
+		
+	//float sub1=45;
+	//float sub2=95;
+	//float sub3=48;
+	//float cgpa=(sub1+sub2+sub3)/30;
+	//System.out.println(cgpa);
+	
+     //question 03	
+		
+System.out.println("What is your name ");		
+Scanner sc=new Scanner(System.in);
+String name=sc.next(); 
+System.out.println("Hello " + name + " have a good day");
+}
+}

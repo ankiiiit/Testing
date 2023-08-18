@@ -1,0 +1,18 @@
+package abc;
+
+public class test7string {
+public static void main(String[] args) {
+	//String name="deepak";
+	//System.out.println("The name is:");
+	//System.out.println(name);
+	 
+	int a=6;
+	float b=6.777f;
+System.out.printf("the value of a is %d and value of b is %f",a,b);	
+System.out.format("the value of a is %d and value of b is %f",a,b);	
+
+	
+	
+	
+}
+}

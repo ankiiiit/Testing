@@ -1,0 +1,9 @@
+package abc;
+
+public class test6 {
+	public static void main(String[] args) {
+		float b=6.34+3;
+ System.out.println(b);
+	}
+
+}

@@ -1,0 +1,23 @@
+package abc;
+
+public class test5 {
+public static void main(String[] args) {
+    // 1.arithmetic (+,-,*,/,%,++,-- )
+    //int a=12;
+	//int b= 12+a;
+	
+	//int a=12;
+	//int b= 14-a;
+	
+	//int a=12;
+	//int b= 12*a;
+
+	int a=12;
+	int b= 12/a;
+	
+
+	
+	
+	System.out.println(b);
+}
+}

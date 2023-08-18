@@ -1,0 +1,57 @@
+package abc;
+import java.util.Scanner;
+public class test7string {
+public static void main(String[] args) {
+	String name="Deepak"; 
+	//System.out.print("the name is: ");
+	//System.out.println(name);
+	 
+	 //int a=6;
+   	 //float b=6.778657f;
+     //System.out.printf("the value of a is %d and value of b is %f",a,b);	
+     //System.out.format("the value of a is %d and value of b is %f",a,b);	
+
+	//Scanner sc=new Scanner(System.in);
+	//String st=sc.nextLine();
+	//System.out.println(st);
+    
+	//int value =name.length();
+    //System.out.println(value);
+
+	//String lstring = name.toLowerCase();
+	//System.out.println(lstring);
+	
+	//String ustring = name.toUpperCase();
+	//System.out.println(ustring);
+	
+	//String nontrimmedstring = "    Deepak    "; 
+	//System.out.println(nontrimmedstring);
+	//String trimmedstring = nontrimmedstring.trim();
+	//System.out.println(trimmedstring);
+	
+	//System.out.println(name.substring(1));
+	//System.out.println(name.substring(1,4));
+	
+	//System.out.println(name.replace('D','P'));
+	//System.out.println(name.replace("p","ier" ));
+	
+	System.out.println(name.startsWith("Dee"));
+	
+	//System.out.println(name.endsWith("pak"));
+	
+	//System.out.println(name.charAt(0));
+	
+	//System.out.println(name.indexOf('e'));
+	
+	               
+	//System.out.println(name.indexOf("",0));    // the index from which to start the search.
+
+	//System.out.println(modifiedname.lastIndexOf("p"));
+	
+	//System.out.println(name.equals("Deepak"));
+	
+	//System.out.println(name.equalsIgnoreCase("dEEPak"));
+	
+}
+}
+ 

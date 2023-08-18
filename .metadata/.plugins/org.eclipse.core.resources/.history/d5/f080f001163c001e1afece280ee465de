@@ -1,0 +1,19 @@
+package abc;
+
+public class Vedio32_Methods_overloading {
+	static void change(int a) {
+		a=12;
+	}
+static void telljoke() {
+	System.out.println("I invented a new word!\n"+"plagiarism!");
+}
+public static void main(String[] args) {
+	telljoke();
+	
+	int  [] mrks= {11,22,33,44,55,66};
+	int x=10;
+	change(x);
+	
+	System.out.println("The value of x after changing is -"+x);
+}
+}

@@ -1,0 +1,21 @@
+package javaprogramming;
+
+public class Reverstring {
+	public static void main(String[] args) {
+
+		// 1. using + (string concatenation) operator
+ 
+		
+		  String name = "DEEPAK";
+		  String rev = " "; 
+		   
+		    for(int i=name.length()-1; i>=0; i--) {
+		     rev=rev+name.charAt(i); 
+		    }
+		  System.out.println("Reversed string is :"+rev);
+		 
+		
+
+		
+	}
+}

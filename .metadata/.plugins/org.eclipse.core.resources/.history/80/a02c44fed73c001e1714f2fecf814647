@@ -1,0 +1,50 @@
+package abc;
+
+public class Vedio35Practice {
+	
+	//practice01
+//static int multiplication(int n) {
+//	for(int i=1; i<=10; i++) {
+//		System.out.format("%d*%d=%d\n",n,i, n*i );
+//		
+//	}
+//	return n;
+//	
+//}
+//public static void main(String[] args) {
+	//multiplication(5);
+	
+	
+	  //practice02
+	static int pattrn(int n) {
+		for(int i=0; i<=n; i++) {
+			for(int j=0; j<i; j++) {
+				System.out.println("*");
+			}
+		}
+		return n;
+	}
+	public static void main(String[] args) {
+		pattrn(4);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+

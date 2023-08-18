@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;math&apos; to &apos;generateRandomNumber&apos;" description="Rename resource &apos;math&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/math" name="generateRandomNumber" stamp="1691648495550" updateReferences="true"/>
+</session>

@@ -1,0 +1,27 @@
+package javaprogramming;
+
+import java.util.Scanner;
+
+public class palindromestring {
+public static void main(String[] args) {
+	//Scanner sc = new Scanner(System.in);
+	//System.out.println("Enter a name: ");
+	//String str=sc.nextLine() ;
+	String str = "madam";
+	String org_str = str;
+	String rev = " ";
+	for(int i=str.length()-1; i>=0; i--) { 
+		rev=(rev+str.charAt(i)).trim();
+	//	rev.trim();
+	}
+	System.out.println(rev);
+ if(org_str.equals(rev)) {
+	 System.out.println( "string is palindrome");
+ }
+ else {
+	 System.out.println( "string is not palindrome");
+ }
+	
+
+}
+}

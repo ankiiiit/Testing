@@ -1,0 +1,14 @@
+package abc;
+
+public class num {
+	public static  void main(String[] args) {
+		
+	 sum1="20";
+	int Sum2=30;
+	int sum3=40;
+	int sum=sum1+sum2+sum3;
+	
+System.out.println(String);
+	}
+
+}

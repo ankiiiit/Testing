@@ -1,0 +1,13 @@
+package abc;
+
+public class test1 {
+	
+	
+	public int a=12333;
+	public static void main(String[] args) {
+System.out.println("Hello world");
+
+
+
+	}
+}

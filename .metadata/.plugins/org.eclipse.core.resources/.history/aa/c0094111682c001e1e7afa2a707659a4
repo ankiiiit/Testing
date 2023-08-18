@@ -1,0 +1,10 @@
+package abc;
+
+public class test6 {
+	public static void main(String[] args) {
+		int a =12;
+		float b=6.34f+a;
+ System.out.println(b);
+	}
+
+}

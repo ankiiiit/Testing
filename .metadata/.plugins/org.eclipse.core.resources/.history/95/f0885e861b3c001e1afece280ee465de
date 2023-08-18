@@ -1,0 +1,23 @@
+package abc;
+
+public class method {
+
+	public static void write(String x) {
+		System.out.println(x);
+		
+	}
+	
+	public void add() {
+		int x=6;
+		int y=7 ;
+		
+		int z = x+y;
+		System.out.println(z);
+	}
+	
+	public static void main(String[] args) {
+		
+		
+		write("rahi");
+	}
+}

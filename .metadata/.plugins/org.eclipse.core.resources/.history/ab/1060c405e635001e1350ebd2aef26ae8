@@ -1,0 +1,27 @@
+package javaprogramming;
+
+public class practice01 {
+public static void main(String[] args) {
+	int a=10 ,b=20;
+	System.out.println("Before swapping value are: "+a+ " " +b);
+	  //Logic01 using third variable:
+	//int t = a;
+//	    a=b;
+//	    b=t;
+//		System.out.println("After swapping value are: "+a+" " +b);
+// 
+	//Logic02 + & - without using third variable:
+//	 a=a+b;    // a=30;
+//     b=a-b;	   //b=10;
+//     a=a-b;   //a=20;
+//	
+//     System.out.println("After swapping value are: "+a+" " +b);
+//
+	//Logic03 * & / without using  third variable:
+	a=a*b;    //a=200;
+	b=a/b;    //b=200/20 =10;
+	a=a/b;    //a=200/10 =20;
+	 System.out.println("After swapping value are: "+a+" " +b);
+	
+}
+}
